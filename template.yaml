@@ -18,11 +18,11 @@ Metadata:
     Description: Amazon Pinpoint Slack Channel.  This application will deliver Amazon Pinpoint triggered messages to Slack using Slack API.  Written in Python3.
     Author: Amazon Pinpoint
     SpdxLicenseId: MIT-0
-    LicenseUrl: LICENSE.txt
+    LicenseUrl: LICENSE
     ReadmeUrl: README.md
-    Labels: ['amazon-pinpoint', 'pinpoint', 'custom-channel', 'slack']
+    Labels: ['amazon-pinpoint', 'pinpoint', 'custom-channel', 'slack', 'python']
     HomePageUrl: https://aws.amazon.com/pinpoint
-    SemanticVersion: 1.0.0
+    SemanticVersion: 1.0.1
     SourceCodeUrl: https://github.com/aws-samples/amazon-pinpoint-slack-channel
 
 Resources:
