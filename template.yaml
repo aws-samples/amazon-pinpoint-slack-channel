@@ -12,6 +12,19 @@ Globals:
   Function:
     Timeout: 180
 
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: amazon-pinpoint-slack-channel
+    Description: Amazon Pinpoint Slack Channel.  This application will deliver Amazon Pinpoint triggered messages to Slack using Slack API.  Written in Python3.
+    Author: Amazon Pinpoint
+    SpdxLicenseId: MIT-0
+    LicenseUrl: LICENSE.txt
+    ReadmeUrl: README.md
+    Labels: ['amazon-pinpoint', 'pinpoint', 'custom-channel', 'slack']
+    HomePageUrl: https://aws.amazon.com/pinpoint
+    SemanticVersion: 1.0.0
+    SourceCodeUrl: https://github.com/aws-samples/amazon-pinpoint-slack-channel
+
 Resources:
   AmazonPinpointSlackChannelFunction:
     Type: AWS::Serverless::Function
